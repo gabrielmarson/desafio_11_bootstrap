@@ -25,7 +25,6 @@ nav ul{
     justify-content: space-around;   
     list-style: none;
     margin: 10px;
-    padding: 0.5rem;
 }
 nav ul li img{
     width: 30px;
@@ -44,9 +43,6 @@ a{
     text-decoration: none;
     color: black;
 }
-a:hover{
-    color: rgb(27, 11, 245);
-}
 ul li:hover ul{
     display: inline-block;
 }
@@ -56,29 +52,12 @@ form{
 }
 h2{
     color: rgba(245, 44, 8, 0.945);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     word-spacing: 5px;
     text-align: center;
 }
-.productos{
-    background-color: white;
-    width: 95%;
-    text-align: center;
-    margin: 10px auto;
-    padding: 5px;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas:
-        "celusA celusB celusC"
-        "celusD celusE celusF" ;
-}
-.productos img{
-    width: 250px;
-}
-.productos img:hover{
-    transform: scale(1.1, 1.1);
+.allcell:hover{
+    transform: translate(10px, 15px)
 }
 h3{
     text-align: center;
@@ -86,12 +65,6 @@ h3{
 ol{
     display: flex;
     justify-content: center;
-}
-.formu{
-    display: block;
-    margin-right: 300px;
-    margin-left: 300px;
-    text-align: center;
 }
 p{
     text-align: center;
@@ -103,7 +76,6 @@ p{
 .nav2 ul{
     background: rgb(75, 228, 156);
     margin: 10px;
-    padding: 2px;
 }
 @keyframes aparecer {
     0% {
@@ -134,17 +106,6 @@ nav ul li:hover {
     label{
         margin: 60px;
     }
-    .productos{
-        grid-template-columns:repeat(1, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        grid-template-areas: 
-            "celusA"
-            "celusB"
-            "celusC"
-            "celusD"
-            "celusE"
-            "celusF";
-    }
     ol{
         flex-direction: column;
         align-items: center;
@@ -153,7 +114,7 @@ nav ul li:hover {
         flex-direction: column;
         align-items: center;
     }
-    .formu{
-        margin-left: 60px;
+    .nav2{
+        text-align: center;
     }
 }
