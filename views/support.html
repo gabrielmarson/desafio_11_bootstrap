@@ -54,33 +54,38 @@
         </h2><br>
             <form>
                 <legend>Leave us your question</legend>
-                    <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-lg-4">
-                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-lg-4">
-                            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-lg-4">
-                            <input type="email" class="form-control" placeholder="@email" aria-label="email" required>
-                        </div>
-                        <div class="col-12 form-floating"><br>
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">Comments</label>
-                        </div>
-                        <div class="col-auto"><br>
-                              <select class="form-select" aria-label="Default select example">
-                                <option selected>Choose your country</option>
-                                <option value="1">ARGENTINA</option>
-                                <option value="2">URUGUAY</option>
-                                <option value="3">BRASIL</option>
-                              </select>
-                        </div>
-                        <div class="col-auto"><br>
-                            <button type="submit" class="btn btn-primary mb-3">SEND</button>
-                        </div>
-                        <div class="col-auto"><br>
-                            <button type="reset" class="btn btn-primary mb-3">DELETE</button>
+                    <div class="container-fluid">
+                        <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-3 mb-2">
+                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-3 mb-2">
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-3 mb-2">
+                                <input type="email" class="form-control" placeholder="@email" aria-label="email" required>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-3 mb-3">
+                                <input type="number" class="form-control" placeholder="01234" aria-label="number">
+                            </div>
+                            <div class="col-12 form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Comments</label>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-3">
+                                  <select class="form-select" aria-label="country">
+                                    <option selected>Choose your country</option>
+                                    <option value="argentina">ARGENTINA</option>
+                                    <option value="uruguay">URUGUAY</option>
+                                    <option value="brasil">BRASIL</option>
+                                  </select>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-lg-4">
+                                <button type="submit" class="btn btn-primary mb-3">SEND</button>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-4">
+                                <button type="reset" class="btn btn-primary mb-3">DELETE</button>
+                            </div>
                         </div>
                     </div>
             </form>
